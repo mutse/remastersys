@@ -1,0 +1,5 @@
+include *.in COPYING ChangeLog AUTHORS README NEWS
+include data/scripts/*
+recursive-include data *.png *.in *.desktop *.glade
+recursive-include po *.po *.in
+recursive-include man *.1

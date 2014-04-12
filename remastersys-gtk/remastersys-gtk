@@ -1,0 +1,9 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+import os
+from remastersysgtk import remastersys_gtk
+
+if __name__ == '__main__':
+    os.chdir(os.path.dirname(os.path.realpath(remastersys_gtk.__file__)))
+    #os.system('chmod a+x %s' % remastersys_gtk.__file__)

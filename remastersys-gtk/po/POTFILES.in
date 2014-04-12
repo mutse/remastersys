@@ -1,0 +1,4 @@
+data/remastersys-gtk.desktop.in
+data/remastersys-gtk-kde.desktop.in
+[type: gettext/glade]data/ui/remastersys-gtk.glade
+remastersysgtk/remastersys_gtk.py

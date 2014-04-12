@@ -1,0 +1,481 @@
+#: ../remastersysgtk/remastersys_gtk.py:752
+msgid ""
+msgstr ""
+"Project-Id-Version: remastersys\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-11-05 15:08+0800\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Krasimir S. Stefanov <lokiisyourmaster@gmail.com>\n"
+"Language-Team: SKSS <lokiisyourmaster@gmail.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Bulgarian\n"
+"X-Poedit-Country: BULGARIA\n"
+"X-Poedit-KeywordsList: _\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: ../data/ui/remastersys-gtk.glade.h:1
+#: ../remastersysgtk/remastersys_gtk.py:177
+#: ../remastersysgtk/remastersys_gtk.py:746
+msgid "Remastersys"
+msgstr "Remastersys"
+
+#: ../data/ui/remastersys-gtk.glade.h:2
+msgid "Backup"
+msgstr "Резервно копие"
+
+#: ../data/ui/remastersys-gtk.glade.h:3
+msgid "Dist"
+msgstr "Дистрибуция"
+
+#: ../data/ui/remastersys-gtk.glade.h:4
+msgid "Distiso"
+msgstr "Дистрибуция - ISO"
+
+#: ../data/ui/remastersys-gtk.glade.h:5
+msgid "Backup complete system including user data"
+msgstr ""
+"Резервно копие на цялата система - включва и потребителските файлове в "
+"домашната ви папка."
+
+#: ../data/ui/remastersys-gtk.glade.h:6
+msgid ""
+"Make a Distributable copy to share with friends - both cdfs and iso will be "
+"created"
+msgstr ""
+"Създаване на копие, подходящо за дистрибуция. Директно създава ISO файл."
+
+#: ../data/ui/remastersys-gtk.glade.h:7
+msgid ""
+"Make distributable iso file only - cd filesystem must have been completed "
+"already"
+msgstr ""
+"Създаване на ISO файла от вече генерираната файлова система на диска - "
+"трябва да изпълните Distcdfs преди това."
+
+#: ../data/ui/remastersys-gtk.glade.h:8
+msgid "Remove temporary files"
+msgstr "Почистване на временните файлове"
+
+#: ../data/ui/remastersys-gtk.glade.h:9
+msgid "Distcdfs"
+msgstr "Дистрибуция - CDFS"
+
+#: ../data/ui/remastersys-gtk.glade.h:10
+msgid ""
+"Make a Distributable copy filesystem only - good if you want to add files to "
+"the cd"
+msgstr ""
+"Създаване само на файловата система на живия диск, без да се генерира ISO - "
+"ако искате преди това да добавите още файлове в диска."
+
+#: ../data/ui/remastersys-gtk.glade.h:11
+msgid "Select"
+msgstr "Избор"
+
+#: ../data/ui/remastersys-gtk.glade.h:12
+msgid "Boot menu picture for the live cd (640x480 PNG)"
+msgstr "Картинка за менюто за зареждане на живия диск (640x480 PNG)"
+
+#: ../data/ui/remastersys-gtk.glade.h:13
+msgid "Boot menu picture for the installed environment"
+msgstr "Картинка за менюто за зареждане на инсталираната среда"
+
+#: ../data/ui/remastersys-gtk.glade.h:14
+msgid "Updating GRUB, please wait..."
+msgstr "Обновяване на GRUB, моля изчакайте..."
+
+#: ../data/ui/remastersys-gtk.glade.h:15
+msgid "User, whose current settings will be used as default"
+msgstr "Потребител, чиито настройки ще бъдат използвани като подразбиращи се"
+
+#: ../data/ui/remastersys-gtk.glade.h:16
+msgid "Clear everything from /etc/skel"
+msgstr "Изчистване на всичко от /etc/skel"
+
+#: ../data/ui/remastersys-gtk.glade.h:17
+msgid "Plymouth theme"
+msgstr "Plymouth тема"
+
+#: ../data/ui/remastersys-gtk.glade.h:18
+msgid "Actions"
+msgstr "Действия"
+
+#: ../data/ui/remastersys-gtk.glade.h:19
+msgid "Username"
+msgstr "Потребителско име"
+
+#: ../data/ui/remastersys-gtk.glade.h:20
+msgid "CD Label"
+msgstr "CD/DVD Етикет"
+
+#: ../data/ui/remastersys-gtk.glade.h:21
+msgid "Filename"
+msgstr "Име ISO файла"
+
+#: ../data/ui/remastersys-gtk.glade.h:22
+msgid "Working directory"
+msgstr "Работна папка"
+
+#: ../data/ui/remastersys-gtk.glade.h:23
+msgid "Files to exclude"
+msgstr "Пропускани файлове"
+
+#: ../data/ui/remastersys-gtk.glade.h:24
+msgid "URL for USB Creator"
+msgstr "Домашна страница на създателя"
+
+#: ../data/ui/remastersys-gtk.glade.h:25
+msgid ""
+"<span color=\"red\">Working directory must be on a drive formatted with a "
+"linux filesystem. Remastersys will create the \"remastersys\" working folder "
+"in this folder and will not harm any other files or folders.</span>"
+msgstr ""
+"<span color=\"red\">Работната папка трябва да е върху дял, форматиран с "
+"Линукс файлова система. Remastersys ще създаде папка \"remastersys\" и няма "
+"да влияе на други файлове или папки.</span>"
+
+#: ../data/ui/remastersys-gtk.glade.h:26
+msgid "Squashfs options"
+msgstr "Опции на Squashfs"
+
+#: ../data/ui/remastersys-gtk.glade.h:27
+msgid "Show install icon on Backup mode desktop"
+msgstr ""
+"Показване на иконка \"Инсталиране\" върху работния плот при режим \"Резервно "
+"копие\""
+
+#: ../data/ui/remastersys-gtk.glade.h:28
+msgid "Settings"
+msgstr "Настройки"
+
+#: ../data/ui/remastersys-gtk.glade.h:29
+msgid "Output"
+msgstr "Дневник на действията"
+
+#: ../data/ui/remastersys-gtk.glade.h:30
+msgid "Default settings"
+msgstr "Настройки по подразбиране"
+
+#: ../data/ui/remastersys-gtk.glade.h:31
+msgid "Select the user, whose settings to be used as default:"
+msgstr ""
+"Изберете потребител, чиито настройки да бъдат използвани като подразбиращи "
+"се:"
+
+#: ../data/ui/remastersys-gtk.glade.h:32
+msgid ""
+"<span color=\"red\">WARNING: make sure you chose user with a SMALL home "
+"directory, not some with gigabytes of data!\n"
+"Even so, you must manually check the contents of /etc/skel afterwards, and "
+"make sure it does not contain sensitive information (especially in the "
+"hidden folders)!</span>"
+msgstr ""
+"<span color=\"red\">ВНИМАНИЕ: уверете се че избирате потребител с МАЛКА ПО "
+"ОБЕМ домашна папка, а не някой с гигабайти в нея!\n"
+"И дори тогава, проверете ръчно съдържанието на /etc/skel след това, за да се "
+"уверите че не съдържа поверителна информация (особено в скритите папки)!</"
+"span>"
+
+#: ../data/ui/remastersys-gtk.glade.h:34
+msgid "Copying files, please wait..."
+msgstr "Копиране на файловете, моля изчакайте..."
+
+#: ../data/ui/remastersys-gtk.glade.h:35
+msgid "Select plymouth theme"
+msgstr "Избор на plymouth тема"
+
+#: ../data/ui/remastersys-gtk.glade.h:36
+msgid "Available plymouth themes:"
+msgstr "Налични plymouth теми:"
+
+#: ../data/ui/remastersys-gtk.glade.h:37
+msgid "Automatic selection"
+msgstr "Автоматичен избор"
+
+#: ../data/ui/remastersys-gtk.glade.h:38
+msgid ""
+"Auto-select the plymouth theme, based on the update-alternatives information"
+msgstr ""
+"Автоматично избира подразбиращата се тема за plymouth, според информацията "
+"от update-alternatives"
+
+#: ../data/ui/remastersys-gtk.glade.h:39
+msgid "Updating initramfs, please wait..."
+msgstr "Обновяване на initramfs, моля изчакайте..."
+
+#: ../data/ui/remastersys-gtk.glade.h:40
+msgid "Use the currently selected plymouth theme"
+msgstr "Използване на избраната plymouth тема"
+
+#: ../data/ui/remastersys-gtk.glade.h:41
+msgid "Create"
+msgstr "Създаване"
+
+#: ../data/ui/remastersys-gtk.glade.h:42
+msgid "Create a simple static plymouth theme"
+msgstr "Създаване на проста статична plymouth тема"
+
+#: ../data/ui/remastersys-gtk.glade.h:43
+msgid "Preview"
+msgstr "Преглед"
+
+#: ../data/ui/remastersys-gtk.glade.h:44
+msgid "Preview the currently selected plymouth theme"
+msgstr "Предварителен преглед на избраната plymouth тема"
+
+#: ../remastersysgtk/remastersys_gtk.py:75
+msgid ""
+"It is necessary to close all other windows and unmount any network shares "
+"while running Remastersys Backup. Please do so now and then click OK when "
+"you are ready to continue."
+msgstr ""
+"Необходимо е да затворите всички прозорци, и да размонтирате всички мрежови "
+"папки докато Remastersys работи. Моля, направете го сега и след това "
+"щракнете \"Добре\" за да продължите."
+
+#: ../remastersysgtk/remastersys_gtk.py:88
+msgid ""
+"You have selected Backup Mode. Do not interrupt this process. Click OK to "
+"Start the Backup LiveCD/DVD process."
+msgstr ""
+"Избрахте режим \"Резервно копие\". Не прекъсвайте този процес. Щракнете "
+"\"Добре\" за да продължите."
+
+#: ../remastersysgtk/remastersys_gtk.py:96
+#: ../remastersysgtk/remastersys_gtk.py:114
+#: ../remastersysgtk/remastersys_gtk.py:151
+#, python-format
+msgid ""
+"Your %(iso)s and %(iso)s.md5 files are ready in %(dir)s. It is recommended "
+"to test it in a virtual machine or on a rewritable cd/dvd to ensure it works "
+"as desired. Click on OK to return to the main menu."
+msgstr ""
+"%(iso)s и %(iso)s.md5 са готови, и се намират в %(dir)s. Щракнете \"Добре\" "
+"за да продължите."
+
+#: ../remastersysgtk/remastersys_gtk.py:99
+#: ../remastersysgtk/remastersys_gtk.py:116
+#: ../remastersysgtk/remastersys_gtk.py:132
+#: ../remastersysgtk/remastersys_gtk.py:153
+#: ../remastersysgtk/remastersys_gtk.py:169
+msgid "The process was interrupted!"
+msgstr "Процесът бе прекъснат!"
+
+#: ../remastersysgtk/remastersys_gtk.py:105
+msgid ""
+"You have selected Dist Mode. Click OK to Start the Distributable LiveCD/DVD "
+"process."
+msgstr ""
+"Избрахте режим \"Дистрибуция\". Натиснете \"Добре\" за да създадете живия "
+"диск."
+
+#: ../remastersysgtk/remastersys_gtk.py:122
+msgid ""
+"You have selected Dist CDFS Mode. Click OK to Start the Distributable LiveCD/"
+"DVD filesystem build process."
+msgstr ""
+"Избрахте режим \"Дистрибуция - CDFS\". Натиснете \"Добре\" за да създадете "
+"файловата система."
+
+#: ../remastersysgtk/remastersys_gtk.py:130
+#, python-format
+msgid ""
+"Your livecd filesystem is ready in %s. You can now add files to the cd and "
+"then run the Distiso option when you are done. Click on OK to return to the "
+"main menu."
+msgstr ""
+"Файловата система на живия диск бе генериране в %s. Ако желаете, сега може "
+"да добавите файлове там, и след това изпълнете \"Дистрибуция - ISO\" за да "
+"генерирате ISO файла. Щракнете \"Добре\" за да продължите."
+
+#: ../remastersysgtk/remastersys_gtk.py:140
+msgid "You have selected Dist ISO Mode. Click OK to create the iso file."
+msgstr ""
+"Избрахте режим \"Дистрибуция - ISO\". Натиснете \"Добре\" за да създадете "
+"ISO файла."
+
+#: ../remastersysgtk/remastersys_gtk.py:145
+msgid ""
+"The livecd filesystem does not exist. Click OK to go back to the main menu "
+"and try the normal Dist mode or the Dist CDFS again."
+msgstr ""
+"Файловата система на живия диск все още не е генерирана. Щракнете \"Добре\" "
+"за да се върнете в основното меню, и от него изберете \"Дистрибуция\" или "
+"\"Дистрибуция - CDFS\"."
+
+#: ../remastersysgtk/remastersys_gtk.py:159
+msgid ""
+"This will remove all the files from the temporary directory. Click OK to "
+"proceed."
+msgstr ""
+"Това ще премахне всички временни файлове от работната папка на remastersys. "
+"Натиснете \"Добре\" за да продължите."
+
+#: ../remastersysgtk/remastersys_gtk.py:167
+msgid "Completed. Click OK to return to the main menu."
+msgstr "Готово. Натиснете \"Добре\" за да се върнете в главното меню. "
+
+#: ../remastersysgtk/remastersys_gtk.py:179
+msgid "Krasimir S. Stefanov <lokiisyourmaster@gmail.com>"
+msgstr "Красимир С. Стефанов <lokiisyourmaster@gmail.com>"
+
+#: ../remastersysgtk/remastersys_gtk.py:179
+msgid "Tony Brijeski <tb6517@yahoo.com>"
+msgstr "Tony Brijeski <tb6517@yahoo.com>"
+
+#: ../remastersysgtk/remastersys_gtk.py:182
+msgid "Bulgarian - Krasimir S. Stefanov <lokiisyourmaster@gmail.com>"
+msgstr "Български - Красимир С. Стефанов <lokiisyourmaster@gmail.com>"
+
+#: ../remastersysgtk/remastersys_gtk.py:183
+msgid "English - Krasimir S. Stefanov <lokiisyourmaster@gmail.com>"
+msgstr "Английски - Красимир С. Стефанов <lokiisyourmaster@gmail.com>"
+
+#: ../remastersysgtk/remastersys_gtk.py:183
+msgid "Traditional Chinese - Kent Chang <kentxchang@gmail.com>"
+msgstr ""
+
+#: ../remastersysgtk/remastersys_gtk.py:183
+msgid "Simplified Chinese - Mutse Young <yyhoo2.young@gmail.com>"
+msgstr ""
+
+#: ../remastersysgtk/remastersys_gtk.py:188
+msgid ""
+"PyGTK GUI for Remastersys\n"
+"Copyright (C) 2011 Krasimir S. Stefanov, Tony Brijeski\n"
+"Licence: GPLv3.0\n"
+"http://www.gnu.org/licenses/."
+msgstr ""
+"PyGTK GUI графичен интерфейс за Remastersys\n"
+"Copyright (C) 2011 Красимир С. Стефанов, Tony Brijeski\n"
+"Лиценз: GPLv3.0\n"
+"http://www.gnu.org/licenses/."
+
+#: ../remastersysgtk/remastersys_gtk.py:197
+msgid "Select working directory"
+msgstr "Изберете работна папка"
+
+#: ../remastersysgtk/remastersys_gtk.py:211
+msgid "Select 640x480 PNG image..."
+msgstr "Избор 640x480 PNG изображение..."
+
+#: ../remastersysgtk/remastersys_gtk.py:217
+#: ../remastersysgtk/remastersys_gtk.py:406
+msgid "PNG Images"
+msgstr "PNG Изображения"
+
+#: ../remastersysgtk/remastersys_gtk.py:222
+#: ../remastersysgtk/remastersys_gtk.py:411
+msgid "All files"
+msgstr "Всички файлове"
+
+#: ../remastersysgtk/remastersys_gtk.py:233
+#, python-format
+msgid ""
+"%s has been copied to /etc/remastersys/isolinux/splash.png becoming the "
+"default background for the LIVE menu."
+msgstr ""
+"Файлът %s бе копиран в /etc/remastersys/isolinux/splash.png и ще бъде "
+"използван като фон за менюто за зареждане на живия диск."
+
+#: ../remastersysgtk/remastersys_gtk.py:238
+msgid "Select image..."
+msgstr "Избор на изображение..."
+
+#: ../remastersysgtk/remastersys_gtk.py:265
+#, python-format
+msgid ""
+"%(filename)s has been copied to %(grub_bg)s and is the default background "
+"for grub. Click OK to update grub with the new settings so you can see your "
+"picture on the next boot."
+msgstr ""
+"Файлът %(filename)s бе копиран в %(grub_bg)s и ще бъде използван като фон за "
+"grub. Щракнете OK за да обновите grub и по този начин да видите фона при "
+"следващото зареждане."
+
+#: ../remastersysgtk/remastersys_gtk.py:277
+msgid "GRUB has been updated."
+msgstr "Настройките на GRUB бяха обновени!"
+
+#: ../remastersysgtk/remastersys_gtk.py:319
+msgid "User"
+msgstr "Потребител"
+
+#: ../remastersysgtk/remastersys_gtk.py:320
+msgid "Home directory"
+msgstr "Домашна папка"
+
+#: ../remastersysgtk/remastersys_gtk.py:370
+msgid "Done! Now plymouth will use the default, auto-selected theme."
+msgstr ""
+"Готово! Plymouth вече ще използва стандартната, автоматично-избрана тема."
+
+#: ../remastersysgtk/remastersys_gtk.py:374
+#: ../remastersysgtk/remastersys_gtk.py:473
+msgid "Please, select a theme!"
+msgstr "Моля, изберете тема!"
+
+#: ../remastersysgtk/remastersys_gtk.py:383
+msgid ""
+"Enter your plymouth theme name. eg. Remastersys Theme (please use only "
+"alphanumeric characters)"
+msgstr ""
+"Въведете името на темата за plymouth, например Remastersys Theme (моля, не "
+"използвайте специални символи)"
+
+#: ../remastersysgtk/remastersys_gtk.py:383
+msgid "Name:"
+msgstr "Име:"
+
+#: ../remastersysgtk/remastersys_gtk.py:387
+msgid "You must specify theme name!"
+msgstr "Трябва да напишете име на темата!"
+
+#: ../remastersysgtk/remastersys_gtk.py:394
+#, python-format
+msgid "The theme \"%s\" already exists! Do you want to overwrite it?"
+msgstr "Темата \"%s\" вече съществува! Искате ли да е презапишете?"
+
+#: ../remastersysgtk/remastersys_gtk.py:400
+msgid "Select 1920x1080 PNG image..."
+msgstr "Избор 1920x1080 PNG изображение..."
+
+#: ../remastersysgtk/remastersys_gtk.py:446
+#, python-format
+msgid ""
+"Your plymouth theme named %(theme_name)s with the picture %(theme_pic)s has "
+"been created."
+msgstr ""
+"Темата за plymouth с име %(theme_name)s и картинка %(theme_pic)s бе "
+"създадена."
+
+#: ../remastersysgtk/remastersys_gtk.py:454
+msgid ""
+"In order to be able to preview plymouth themes, you have to install plymouth-"
+"x11!"
+msgstr ""
+"За да можете да правите предварителен преглед на plymouth темите, трябва "
+"първо да инсталирате plymouth-x11!"
+
+#: ../remastersysgtk/remastersys_gtk.py:543
+msgid "Name"
+msgstr "Име"
+
+#: ../remastersysgtk/remastersys_gtk.py:544
+msgid "Directory"
+msgstr "Папка"
+
+#: ../remastersysgtk/remastersys_gtk.py:561
+msgid "Are you sure you want to delete the contents of /etc/skel?"
+msgstr "Сигурни ли сте че искате да изтриете всичко от /etc/skel?"
+
+#: ../remastersysgtk/remastersys_gtk.py:752
+msgid "Enter your password to perform administrative tasks"
+msgstr "Въведете паролата си, за да извършвате административни действия"
+
+#~ msgid "Remastersys-GTK"
+#~ msgstr "Remastersys-GTK"

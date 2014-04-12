@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: remastersys-gtk
+Version: 3.0.4
+Summary: Ubuntu and variant system remaster. This is the alternate gtk gui for remastersys written in pygtk.
+Home-page: http://www.remastersys.com
+Author: Tony Brijeski
+Author-email: tb6517@yahoo.com
+License: GNU GPL
+Description: UNKNOWN
+Platform: linux

@@ -1,0 +1,470 @@
+#: ../remastersysgtk/remastersys_gtk.py:752
+msgid ""
+msgstr ""
+"Project-Id-Version: remastersys\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-02-23 17:25+0800\n"
+"PO-Revision-Date: \n"
+"Last-Translator: mutse <yyhoo2.young@gmail.com>\n"
+"Language-Team: mutse <yyhoo2.young@gmail.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-KeywordsList: _\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Country: CHINA\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: ../data/ui/remastersys-gtk.glade.h:1
+#: ../remastersysgtk/remastersys_gtk.py:177
+#: ../remastersysgtk/remastersys_gtk.py:746
+msgid "Remastersys"
+msgstr "Remastersys"
+
+#: ../data/ui/remastersys-gtk.glade.h:2
+msgid "Backup"
+msgstr "完整备份"
+
+#: ../data/ui/remastersys-gtk.glade.h:3
+msgid "Dist"
+msgstr "Dist"
+
+#: ../data/ui/remastersys-gtk.glade.h:4
+msgid "Distiso"
+msgstr "Distiso"
+
+#: ../data/ui/remastersys-gtk.glade.h:5
+msgid "Backup complete system including user data"
+msgstr "包含用户数据的完整备份系统"
+
+#: ../data/ui/remastersys-gtk.glade.h:6
+msgid ""
+"Make a Distributable copy to share with friends - both cdfs and iso will be "
+"created"
+msgstr "产生一个定制的备份来和朋友分享－同时产生cdfs (CD的文件系统)及 iso"
+
+#: ../data/ui/remastersys-gtk.glade.h:7
+msgid ""
+"Make distributable iso file only - cd filesystem must have been completed "
+"already"
+msgstr "只产生的 iso文件 - CD的文件系统(cdfs)必需已经存在"
+
+#: ../data/ui/remastersys-gtk.glade.h:8
+msgid "Remove temporary files"
+msgstr "移除临时文件"
+
+#: ../data/ui/remastersys-gtk.glade.h:9
+msgid "Distcdfs"
+msgstr "Distcdfs"
+
+#: ../data/ui/remastersys-gtk.glade.h:10
+msgid ""
+"Make a Distributable copy filesystem only - good if you want to add files to "
+"the cd"
+msgstr ""
+"只产生一个定制的CD文件系统－如果你想要在CD中加入额外的文件，请使用这个选项"
+
+#: ../data/ui/remastersys-gtk.glade.h:11
+msgid "Select"
+msgstr "选择"
+
+#: ../data/ui/remastersys-gtk.glade.h:12
+msgid "Boot menu picture for the live cd (640x480 PNG)"
+msgstr "Live CD的开机菜单背景图 (640x480 PNG)"
+
+#: ../data/ui/remastersys-gtk.glade.h:13
+msgid "Boot menu picture for the installed environment"
+msgstr "安装环境的开机菜单(grub)背景图"
+
+#: ../data/ui/remastersys-gtk.glade.h:14
+msgid "Updating GRUB, please wait..."
+msgstr "更新 GRUB，请稍后..."
+
+#: ../data/ui/remastersys-gtk.glade.h:15
+msgid "User, whose current settings will be used as default"
+msgstr "将当前用户的设置值作为默认值"
+
+#: ../data/ui/remastersys-gtk.glade.h:16
+msgid "Clear everything from /etc/skel"
+msgstr "清除 /etc/skel 下所有资料"
+
+#: ../data/ui/remastersys-gtk.glade.h:17
+msgid "Plymouth theme"
+msgstr "Plymouth 主题（开机动画）"
+
+#: ../data/ui/remastersys-gtk.glade.h:18
+msgid "Actions"
+msgstr "操作"
+
+#: ../data/ui/remastersys-gtk.glade.h:19
+msgid "Username"
+msgstr "用户名"
+
+#: ../data/ui/remastersys-gtk.glade.h:20
+msgid "CD Label"
+msgstr "CD 标签"
+
+#: ../data/ui/remastersys-gtk.glade.h:21
+msgid "Filename"
+msgstr "文件名"
+
+#: ../data/ui/remastersys-gtk.glade.h:22
+msgid "Working directory"
+msgstr "工作目录"
+
+#: ../data/ui/remastersys-gtk.glade.h:23
+msgid "Files to exclude"
+msgstr "排除的文件"
+
+#: ../data/ui/remastersys-gtk.glade.h:24
+msgid "URL for USB Creator"
+msgstr "USB 创建者网址"
+
+#: ../data/ui/remastersys-gtk.glade.h:25
+msgid ""
+"<span color=\"red\">Working directory must be on a drive formatted with a "
+"linux filesystem. Remastersys will create the \"remastersys\" working folder "
+"in this folder and will not harm any other files or folders.</span>"
+msgstr ""
+"<span color=\"red\">工作目录必需在Linux的文件系统格式中。Remastersys 將会新增"
+"一个名为 \"remastersys\" 的工作目录，并不会损害任何其他文件或文件夹</span>"
+
+#: ../data/ui/remastersys-gtk.glade.h:26
+msgid "Squashfs options"
+msgstr "Squashfs 选项"
+
+#: ../data/ui/remastersys-gtk.glade.h:27
+msgid "Show install icon on Backup mode desktop"
+msgstr "在桌面显示安装系统的图标"
+
+#: ../data/ui/remastersys-gtk.glade.h:28
+msgid "Settings"
+msgstr "设置"
+
+#: ../data/ui/remastersys-gtk.glade.h:29
+msgid "Output"
+msgstr "输出"
+
+#: ../data/ui/remastersys-gtk.glade.h:30
+msgid "Default settings"
+msgstr "默认设置"
+
+#: ../data/ui/remastersys-gtk.glade.h:31
+msgid "Select the user, whose settings to be used as default:"
+msgstr "选择你想要保留各软件默认设置的使用者:"
+
+#: ../data/ui/remastersys-gtk.glade.h:32
+msgid ""
+"<span color=\"red\">WARNING: make sure you chose user with a SMALL home "
+"directory, not some with gigabytes of data!\n"
+"Even so, you must manually check the contents of /etc/skel afterwards, and "
+"make sure it does not contain sensitive information (especially in the "
+"hidden folders)!</span>"
+msgstr ""
+"<span color=\"red\">警告: 请确定你所选择是一个较小的家目录，不是一个包含大量"
+"资料的家目录\n"
+"即便如此，你也必需手动检查 /etc/skel 中的内容，并确保它不会包含敏感信息 (尤其"
+"是在隐藏文件夹中)!</span>"
+
+#: ../data/ui/remastersys-gtk.glade.h:34
+msgid "Copying files, please wait..."
+msgstr "文件复制中，请稍后..."
+
+#: ../data/ui/remastersys-gtk.glade.h:35
+msgid "Select plymouth theme"
+msgstr "选择 plymouth 主题"
+
+#: ../data/ui/remastersys-gtk.glade.h:36
+msgid "Available plymouth themes:"
+msgstr "可使用的 plymouth 主题:"
+
+#: ../data/ui/remastersys-gtk.glade.h:37
+msgid "Automatic selection"
+msgstr "自动选择"
+
+#: ../data/ui/remastersys-gtk.glade.h:38
+msgid ""
+"Auto-select the plymouth theme, based on the update-alternatives information"
+msgstr "以 update-alternatives 为基础，自动选择 plymouth 主题（开机动画主题）"
+
+#: ../data/ui/remastersys-gtk.glade.h:39
+msgid "Updating initramfs, please wait..."
+msgstr "更新 initramfs，请稍后..."
+
+#: ../data/ui/remastersys-gtk.glade.h:40
+msgid "Use the currently selected plymouth theme"
+msgstr "使用目前选择的 plymouth 主题"
+
+#: ../data/ui/remastersys-gtk.glade.h:41
+msgid "Create"
+msgstr "新增"
+
+#: ../data/ui/remastersys-gtk.glade.h:42
+msgid "Create a simple static plymouth theme"
+msgstr "新增一个简单的静态 plymouth 主题（开机动画）"
+
+#: ../data/ui/remastersys-gtk.glade.h:43
+msgid "Preview"
+msgstr "预览"
+
+#: ../data/ui/remastersys-gtk.glade.h:44
+msgid "Preview the currently selected plymouth theme"
+msgstr "预览目前选取的 plymouth 主题"
+
+#: ../remastersysgtk/remastersys_gtk.py:75
+msgid ""
+"It is necessary to close all other windows and unmount any network shares "
+"while running Remastersys Backup. Please do so now and then click OK when "
+"you are ready to continue."
+msgstr ""
+"当执行 Remastersys Backup 时，必需关闭所有的窗口且取消挂载任何的网络共享文件"
+"夹。请务必这么做，然后当您准备好继续时，请按下OK。"
+
+#: ../remastersysgtk/remastersys_gtk.py:88
+msgid ""
+"You have selected Backup Mode. Do not interrupt this process. Click OK to "
+"Start the Backup LiveCD/DVD process."
+msgstr ""
+"你选择了完整备份模式。不要中断程序，按下OK开始执行完整备份 LiveCD/DVD程序."
+
+#: ../remastersysgtk/remastersys_gtk.py:96
+#: ../remastersysgtk/remastersys_gtk.py:114
+#: ../remastersysgtk/remastersys_gtk.py:151
+#, python-format
+msgid ""
+"Your %(iso)s and %(iso)s.md5 files are ready in %(dir)s. It is recommended "
+"to test it in a virtual machine or on a rewritable cd/dvd to ensure it works "
+"as desired. Click on OK to return to the main menu."
+msgstr ""
+"你的 %(iso)s 及 %(iso)s.md5 文件已经存放在 %(dir)s。建议在虚拟机或可重复读写"
+"的CD /DVD中测试。按下OK返回主菜单。"
+
+#: ../remastersysgtk/remastersys_gtk.py:99
+#: ../remastersysgtk/remastersys_gtk.py:116
+#: ../remastersysgtk/remastersys_gtk.py:132
+#: ../remastersysgtk/remastersys_gtk.py:153
+#: ../remastersysgtk/remastersys_gtk.py:169
+msgid "The process was interrupted!"
+msgstr "进程被中断！"
+
+#: ../remastersysgtk/remastersys_gtk.py:105
+msgid ""
+"You have selected Dist Mode. Click OK to Start the Distributable LiveCD/DVD "
+"process."
+msgstr "你选择了 Dist 模式。按下OK开始定制LiveCD/DVD程序。"
+
+#: ../remastersysgtk/remastersys_gtk.py:122
+msgid ""
+"You have selected Dist CDFS Mode. Click OK to Start the Distributable LiveCD/"
+"DVD filesystem build process."
+msgstr ""
+"你选择了Dist CDFS 模式。按下OK开始建立一个定制的 LiveCD/DVD文件系统程序。"
+
+#: ../remastersysgtk/remastersys_gtk.py:130
+#, python-format
+msgid ""
+"Your livecd filesystem is ready in %s. You can now add files to the cd and "
+"then run the Distiso option when you are done. Click on OK to return to the "
+"main menu."
+msgstr ""
+"你的LiveCD 文件系统已经存放在 %s。你可以新增文件到CD中，然后再执行Distiso选项"
+"来建立iso文件。按下OK返回主菜单。"
+
+#: ../remastersysgtk/remastersys_gtk.py:140
+msgid "You have selected Dist ISO Mode. Click OK to create the iso file."
+msgstr "你选择了Dist ISO 模式。按下OK开始建立iso文件。"
+
+#: ../remastersysgtk/remastersys_gtk.py:145
+msgid ""
+"The livecd filesystem does not exist. Click OK to go back to the main menu "
+"and try the normal Dist mode or the Dist CDFS again."
+msgstr ""
+"LiveCD 文件系统不存在，按下 OK 返回主菜单，并且再试一次一般 Dist 模式或 Dist "
+"CDFS。"
+
+#: ../remastersysgtk/remastersys_gtk.py:159
+msgid ""
+"This will remove all the files from the temporary directory. Click OK to "
+"proceed."
+msgstr "将要删除临时目录中所有文件。按下OK执行。"
+
+#: ../remastersysgtk/remastersys_gtk.py:167
+msgid "Completed. Click OK to return to the main menu."
+msgstr "完成，按下OK返回主选菜单。"
+
+#: ../remastersysgtk/remastersys_gtk.py:179
+msgid "Krasimir S. Stefanov <lokiisyourmaster@gmail.com>"
+msgstr "Krasimir S. Stefanov <lokiisyourmaster@gmail.com>"
+
+#: ../remastersysgtk/remastersys_gtk.py:179
+msgid "Tony Brijeski <tb6517@yahoo.com>"
+msgstr "Tony Brijeski <tb6517@yahoo.com>"
+
+#: ../remastersysgtk/remastersys_gtk.py:182
+msgid "Bulgarian - Krasimir S. Stefanov <lokiisyourmaster@gmail.com>"
+msgstr "保加利亚语 - Krasimir S. Stefanov <lokiisyourmaster@gmail.com>"
+
+#: ../remastersysgtk/remastersys_gtk.py:183
+msgid "English - Krasimir S. Stefanov <lokiisyourmaster@gmail.com>"
+msgstr "英语 - Krasimir S. Stefanov <lokiisyourmaster@gmail.com>"
+
+#: ../remastersysgtk/remastersys_gtk.py:183
+msgid "Traditional Chinese - Kent Chang <kentxchang@gmail.com>"
+msgstr "繁体中文 - Kent Chang <kentchang@gmail.com>"
+
+#: ../remastersysgtk/remastersys_gtk.py:183
+msgid "Simplified Chinese - Mutse Young <yyhoo2.young@gmail.com>"
+msgstr "简体中文 - 默之 <yyhoo2.young@gmail.com>"
+
+#: ../remastersysgtk/remastersys_gtk.py:188
+msgid ""
+"PyGTK GUI for Remastersys\n"
+"Copyright (C) 2011 Krasimir S. Stefanov, Tony Brijeski\n"
+"Licence: GPLv3.0\n"
+"http://www.gnu.org/licenses/."
+msgstr ""
+"Remastersys PyGTK 图形化工具\n"
+"Copyright (C) 2011 Krasimir S. Stefanov, Tony Brijeski\n"
+"Licence: GPLv3.0\n"
+"http://www.gnu.org/licenses/."
+
+#: ../remastersysgtk/remastersys_gtk.py:197
+msgid "Select working directory"
+msgstr "选择工作目录"
+
+#: ../remastersysgtk/remastersys_gtk.py:211
+msgid "Select 640x480 PNG image..."
+msgstr "选择 640x480 PNG 图片..."
+
+#: ../remastersysgtk/remastersys_gtk.py:217
+#: ../remastersysgtk/remastersys_gtk.py:406
+msgid "PNG Images"
+msgstr "PNG 图片"
+
+#: ../remastersysgtk/remastersys_gtk.py:222
+#: ../remastersysgtk/remastersys_gtk.py:411
+msgid "All files"
+msgstr "所有文件"
+
+#: ../remastersysgtk/remastersys_gtk.py:233
+#, python-format
+msgid ""
+"%s has been copied to /etc/remastersys/isolinux/splash.png becoming the "
+"default background for the LIVE menu."
+msgstr ""
+"%s 已经复制到 /etc/remastersys/isolinux/splash.png ，此图片將成为LIVE菜单的预"
+"设背景图。"
+
+#: ../remastersysgtk/remastersys_gtk.py:238
+msgid "Select image..."
+msgstr "选择图片..."
+
+#: ../remastersysgtk/remastersys_gtk.py:265
+#, python-format
+msgid ""
+"%(filename)s has been copied to %(grub_bg)s and is the default background "
+"for grub. Click OK to update grub with the new settings so you can see your "
+"picture on the next boot."
+msgstr ""
+"%(filename)s 已经复制到 %(grub_bg)s 而且设为grub开机菜单的预设背景图，按下OK"
+"來更新你的grub，下次你重新开机时，你將可以在grub菜单中看到你的图片。"
+
+#: ../remastersysgtk/remastersys_gtk.py:277
+msgid "GRUB has been updated."
+msgstr "GRUB已经更新完毕。"
+
+#: ../remastersysgtk/remastersys_gtk.py:319
+msgid "User"
+msgstr "使用者"
+
+#: ../remastersysgtk/remastersys_gtk.py:320
+msgid "Home directory"
+msgstr "家目录"
+
+#: ../remastersysgtk/remastersys_gtk.py:370
+msgid "Done! Now plymouth will use the default, auto-selected theme."
+msgstr "完成！现在 plymouth将使用默认设置，自动选取的主题。"
+
+#: ../remastersysgtk/remastersys_gtk.py:374
+#: ../remastersysgtk/remastersys_gtk.py:473
+msgid "Please, select a theme!"
+msgstr "请选择一个主题!"
+
+#: ../remastersysgtk/remastersys_gtk.py:383
+msgid ""
+"Enter your plymouth theme name. eg. Remastersys Theme (please use only "
+"alphanumeric characters)"
+msgstr ""
+"输入你的 plymouth 主题名。如： Remastersys Theme (只能使用英文字母及数字)"
+
+#: ../remastersysgtk/remastersys_gtk.py:383
+msgid "Name:"
+msgstr "名称："
+
+#: ../remastersysgtk/remastersys_gtk.py:387
+msgid "You must specify theme name!"
+msgstr "你必需指定主题名称!"
+
+#: ../remastersysgtk/remastersys_gtk.py:394
+#, python-format
+msgid "The theme \"%s\" already exists! Do you want to overwrite it?"
+msgstr "主题 \"%s\" 已经存在！你想要覆盖它吗?"
+
+#: ../remastersysgtk/remastersys_gtk.py:400
+msgid "Select 1920x1080 PNG image..."
+msgstr "选择 1920x1080 PNG 图片..."
+
+#: ../remastersysgtk/remastersys_gtk.py:446
+#, python-format
+msgid ""
+"Your plymouth theme named %(theme_name)s with the picture %(theme_pic)s has "
+"been created."
+msgstr "你使用%(theme_pic)s 建立的plymouth主题 %(theme_name)s 已经建立完毕。"
+
+#: ../remastersysgtk/remastersys_gtk.py:454
+msgid ""
+"In order to be able to preview plymouth themes, you have to install plymouth-"
+"x11!"
+msgstr "为了预览 plymouth 主题，你必需安装 plymouth-x11 ！"
+
+#: ../remastersysgtk/remastersys_gtk.py:458
+#: ../remastersysgtk/remastersys_gtk.py:482
+#: ../remastersysgtk/remastersys_gtk.py:506
+msgid "default.plymouth - (manual|auto) mode"
+msgstr "default.plymouth - (手动|自动)模式"
+
+#: ../remastersysgtk/remastersys_gtk.py:464
+#: ../remastersysgtk/remastersys_gtk.py:498
+#: ../remastersysgtk/remastersys_gtk.py:525
+msgid "auto"
+msgstr "自动"
+
+#: ../remastersysgtk/remastersys_gtk.py:488
+#: ../remastersysgtk/remastersys_gtk.py:511
+msgid "link\\s*currently\\s*points\\s*to\\s*(.*)"
+msgstr "链接目前指向(.*)"
+
+#: ../remastersysgtk/remastersys_gtk.py:523
+msgid "manual"
+msgstr "手动"
+
+#: ../remastersysgtk/remastersys_gtk.py:543
+msgid "Name"
+msgstr "名称"
+
+#: ../remastersysgtk/remastersys_gtk.py:544
+msgid "Directory"
+msgstr "目录"
+
+#: ../remastersysgtk/remastersys_gtk.py:561
+msgid "Are you sure you want to delete the contents of /etc/skel?"
+msgstr "你确定你要刪除 /etc/skel 中所有的内容吗?"
+
+#: ../remastersysgtk/remastersys_gtk.py:752
+msgid "Enter your password to perform administrative tasks"
+msgstr "输入您的密码来执行管理任务"
+
+#~ msgid "Remastersys-GTK"
+#~ msgstr "Remastersys-GTK"

@@ -1,0 +1,471 @@
+#: ../remastersysgtk/remastersys_gtk.py:752
+msgid ""
+msgstr ""
+"Project-Id-Version: remastersys\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-11-05 15:08+0800\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Krasimir S. Stefanov <lokiisyourmaster@gmail.com>\n"
+"Language-Team: SKSS <lokiisyourmaster@gmail.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-KeywordsList: _\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: ../data/ui/remastersys-gtk.glade.h:1
+#: ../remastersysgtk/remastersys_gtk.py:177
+#: ../remastersysgtk/remastersys_gtk.py:746
+msgid "Remastersys"
+msgstr "Remastersys"
+
+#: ../data/ui/remastersys-gtk.glade.h:2
+msgid "Backup"
+msgstr "Backup"
+
+#: ../data/ui/remastersys-gtk.glade.h:3
+msgid "Dist"
+msgstr "Dist"
+
+#: ../data/ui/remastersys-gtk.glade.h:4
+msgid "Distiso"
+msgstr "Distiso"
+
+#: ../data/ui/remastersys-gtk.glade.h:5
+msgid "Backup complete system including user data"
+msgstr "Backup complete system including user data"
+
+#: ../data/ui/remastersys-gtk.glade.h:6
+msgid ""
+"Make a Distributable copy to share with friends - both cdfs and iso will be "
+"created"
+msgstr ""
+"Make a Distributable copy to share with friends - both cdfs and iso will be "
+"created"
+
+#: ../data/ui/remastersys-gtk.glade.h:7
+msgid ""
+"Make distributable iso file only - cd filesystem must have been completed "
+"already"
+msgstr ""
+"Make distributable iso file only - cd filesystem must have been completed "
+"already"
+
+#: ../data/ui/remastersys-gtk.glade.h:8
+msgid "Remove temporary files"
+msgstr "Remove temporary files"
+
+#: ../data/ui/remastersys-gtk.glade.h:9
+msgid "Distcdfs"
+msgstr "Distcdfs"
+
+#: ../data/ui/remastersys-gtk.glade.h:10
+msgid ""
+"Make a Distributable copy filesystem only - good if you want to add files to "
+"the cd"
+msgstr ""
+"Make a Distributable copy filesystem only - good if you want to add files to "
+"the cd"
+
+#: ../data/ui/remastersys-gtk.glade.h:11
+msgid "Select"
+msgstr "Select"
+
+#: ../data/ui/remastersys-gtk.glade.h:12
+msgid "Boot menu picture for the live cd (640x480 PNG)"
+msgstr "Boot menu picture for the live cd (640x480 PNG)"
+
+#: ../data/ui/remastersys-gtk.glade.h:13
+msgid "Boot menu picture for the installed environment"
+msgstr "Boot menu picture for the installed environment"
+
+#: ../data/ui/remastersys-gtk.glade.h:14
+msgid "Updating GRUB, please wait..."
+msgstr "Updating GRUB, please wait..."
+
+#: ../data/ui/remastersys-gtk.glade.h:15
+msgid "User, whose current settings will be used as default"
+msgstr "User, whose current settings will be used as default"
+
+#: ../data/ui/remastersys-gtk.glade.h:16
+msgid "Clear everything from /etc/skel"
+msgstr "Clear everything from /etc/skel"
+
+#: ../data/ui/remastersys-gtk.glade.h:17
+msgid "Plymouth theme"
+msgstr "Plymouth theme"
+
+#: ../data/ui/remastersys-gtk.glade.h:18
+msgid "Actions"
+msgstr "Actions"
+
+#: ../data/ui/remastersys-gtk.glade.h:19
+msgid "Username"
+msgstr "Username"
+
+#: ../data/ui/remastersys-gtk.glade.h:20
+msgid "CD Label"
+msgstr "CD Label"
+
+#: ../data/ui/remastersys-gtk.glade.h:21
+msgid "Filename"
+msgstr "Filename"
+
+#: ../data/ui/remastersys-gtk.glade.h:22
+msgid "Working directory"
+msgstr "Working directory"
+
+#: ../data/ui/remastersys-gtk.glade.h:23
+msgid "Files to exclude"
+msgstr "Files to exclude"
+
+#: ../data/ui/remastersys-gtk.glade.h:24
+msgid "URL for USB Creator"
+msgstr "URL for USB Creator"
+
+#: ../data/ui/remastersys-gtk.glade.h:25
+msgid ""
+"<span color=\"red\">Working directory must be on a drive formatted with a "
+"linux filesystem. Remastersys will create the \"remastersys\" working folder "
+"in this folder and will not harm any other files or folders.</span>"
+msgstr ""
+"<span color=\"red\">Working directory must be on a drive formatted with a "
+"linux filesystem. Remastersys will create the \"remastersys\" working folder "
+"in this folder and will not harm any other files or folders.</span>"
+
+#: ../data/ui/remastersys-gtk.glade.h:26
+msgid "Squashfs options"
+msgstr "Squashfs options"
+
+#: ../data/ui/remastersys-gtk.glade.h:27
+msgid "Show install icon on Backup mode desktop"
+msgstr "Show install icon on Backup mode desktop"
+
+#: ../data/ui/remastersys-gtk.glade.h:28
+msgid "Settings"
+msgstr "Settings"
+
+#: ../data/ui/remastersys-gtk.glade.h:29
+msgid "Output"
+msgstr "Output"
+
+#: ../data/ui/remastersys-gtk.glade.h:30
+msgid "Default settings"
+msgstr "Default settings"
+
+#: ../data/ui/remastersys-gtk.glade.h:31
+msgid "Select the user, whose settings to be used as default:"
+msgstr "Select the user, whose settings to be used as default:"
+
+#: ../data/ui/remastersys-gtk.glade.h:32
+msgid ""
+"<span color=\"red\">WARNING: make sure you chose user with a SMALL home "
+"directory, not some with gigabytes of data!\n"
+"Even so, you must manually check the contents of /etc/skel afterwards, and "
+"make sure it does not contain sensitive information (especially in the "
+"hidden folders)!</span>"
+msgstr ""
+"<span color=\"red\">WARNING: make sure you chose user with a SMALL home "
+"directory, not some with gigabytes of data!\n"
+"Even so, you must manually check the contents of /etc/skel afterwards, and "
+"make sure it does not contain sensitive information (especially in the "
+"hidden folders)!</span>"
+
+#: ../data/ui/remastersys-gtk.glade.h:34
+msgid "Copying files, please wait..."
+msgstr "Copying files, please wait..."
+
+#: ../data/ui/remastersys-gtk.glade.h:35
+msgid "Select plymouth theme"
+msgstr "Select plymouth theme"
+
+#: ../data/ui/remastersys-gtk.glade.h:36
+msgid "Available plymouth themes:"
+msgstr "Available plymouth themes:"
+
+#: ../data/ui/remastersys-gtk.glade.h:37
+msgid "Automatic selection"
+msgstr "Automatic selection"
+
+#: ../data/ui/remastersys-gtk.glade.h:38
+msgid ""
+"Auto-select the plymouth theme, based on the update-alternatives information"
+msgstr ""
+"Auto-select the plymouth theme, based on the update-alternatives information"
+
+#: ../data/ui/remastersys-gtk.glade.h:39
+msgid "Updating initramfs, please wait..."
+msgstr "Updating initramfs, please wait..."
+
+#: ../data/ui/remastersys-gtk.glade.h:40
+msgid "Use the currently selected plymouth theme"
+msgstr "Use the currently selected plymouth theme"
+
+#: ../data/ui/remastersys-gtk.glade.h:41
+msgid "Create"
+msgstr "Create"
+
+#: ../data/ui/remastersys-gtk.glade.h:42
+msgid "Create a simple static plymouth theme"
+msgstr "Create a simple static plymouth theme"
+
+#: ../data/ui/remastersys-gtk.glade.h:43
+msgid "Preview"
+msgstr "Preview"
+
+#: ../data/ui/remastersys-gtk.glade.h:44
+msgid "Preview the currently selected plymouth theme"
+msgstr "Preview the currently selected plymouth theme"
+
+#: ../remastersysgtk/remastersys_gtk.py:75
+msgid ""
+"It is necessary to close all other windows and unmount any network shares "
+"while running Remastersys Backup. Please do so now and then click OK when "
+"you are ready to continue."
+msgstr ""
+"It is necessary to close all other windows and unmount any network shares "
+"while running Remastersys Backup. Please do so now and then click OK when "
+"you are ready to continue."
+
+#: ../remastersysgtk/remastersys_gtk.py:88
+msgid ""
+"You have selected Backup Mode. Do not interrupt this process. Click OK to "
+"Start the Backup LiveCD/DVD process."
+msgstr ""
+"You have selected Backup Mode. Do not interrupt this process. Click OK to "
+"Start the Backup LiveCD/DVD process."
+
+#: ../remastersysgtk/remastersys_gtk.py:96
+#: ../remastersysgtk/remastersys_gtk.py:114
+#: ../remastersysgtk/remastersys_gtk.py:151
+#, python-format
+msgid ""
+"Your %(iso)s and %(iso)s.md5 files are ready in %(dir)s. It is recommended "
+"to test it in a virtual machine or on a rewritable cd/dvd to ensure it works "
+"as desired. Click on OK to return to the main menu."
+msgstr ""
+"Your %(iso)s and %(iso)s.md5 files are ready in %(dir)s. It is recommended "
+"to test it in a virtual machine or on a rewritable cd/dvd to ensure it works "
+"as desired. Click on OK to return to the main menu."
+
+#: ../remastersysgtk/remastersys_gtk.py:99
+#: ../remastersysgtk/remastersys_gtk.py:116
+#: ../remastersysgtk/remastersys_gtk.py:132
+#: ../remastersysgtk/remastersys_gtk.py:153
+#: ../remastersysgtk/remastersys_gtk.py:169
+msgid "The process was interrupted!"
+msgstr "The process was interrupted!"
+
+#: ../remastersysgtk/remastersys_gtk.py:105
+msgid ""
+"You have selected Dist Mode. Click OK to Start the Distributable LiveCD/DVD "
+"process."
+msgstr ""
+"You have selected Dist Mode. Click OK to Start the Distributable LiveCD/DVD "
+"process."
+
+#: ../remastersysgtk/remastersys_gtk.py:122
+msgid ""
+"You have selected Dist CDFS Mode. Click OK to Start the Distributable LiveCD/"
+"DVD filesystem build process."
+msgstr ""
+"You have selected Dist CDFS Mode. Click OK to Start the Distributable LiveCD/"
+"DVD filesystem build process."
+
+#: ../remastersysgtk/remastersys_gtk.py:130
+#, python-format
+msgid ""
+"Your livecd filesystem is ready in %s. You can now add files to the cd and "
+"then run the Distiso option when you are done. Click on OK to return to the "
+"main menu."
+msgstr ""
+"Your livecd filesystem is ready in %s. You can now add files to the cd and "
+"then run the Distiso option when you are done. Click on OK to return to the "
+"main menu."
+
+#: ../remastersysgtk/remastersys_gtk.py:140
+msgid "You have selected Dist ISO Mode. Click OK to create the iso file."
+msgstr "You have selected Dist ISO Mode. Click OK to create the iso file."
+
+#: ../remastersysgtk/remastersys_gtk.py:145
+msgid ""
+"The livecd filesystem does not exist. Click OK to go back to the main menu "
+"and try the normal Dist mode or the Dist CDFS again."
+msgstr ""
+"The livecd filesystem does not exist. Click OK to go back to the main menu "
+"and try the normal Dist mode or the Dist CDFS again."
+
+#: ../remastersysgtk/remastersys_gtk.py:159
+msgid ""
+"This will remove all the files from the temporary directory. Click OK to "
+"proceed."
+msgstr ""
+"This will remove all the files from the temporary directory. Click OK to "
+"proceed."
+
+#: ../remastersysgtk/remastersys_gtk.py:167
+msgid "Completed. Click OK to return to the main menu."
+msgstr "Completed. Click OK to return to the main menu."
+
+#: ../remastersysgtk/remastersys_gtk.py:179
+msgid "Krasimir S. Stefanov <lokiisyourmaster@gmail.com>"
+msgstr "Krasimir S. Stefanov <lokiisyourmaster@gmail.com>"
+
+#: ../remastersysgtk/remastersys_gtk.py:179
+msgid "Tony Brijeski <tb6517@yahoo.com>"
+msgstr "Tony Brijeski <tb6517@yahoo.com>"
+
+#: ../remastersysgtk/remastersys_gtk.py:182
+msgid "Bulgarian - Krasimir S. Stefanov <lokiisyourmaster@gmail.com>"
+msgstr "Bulgarian - Krasimir S. Stefanov <lokiisyourmaster@gmail.com>"
+
+#: ../remastersysgtk/remastersys_gtk.py:183
+msgid "English - Krasimir S. Stefanov <lokiisyourmaster@gmail.com>"
+msgstr "English - Krasimir S. Stefanov <lokiisyourmaster@gmail.com>"
+
+#: ../remastersysgtk/remastersys_gtk.py:183
+msgid "Traditional Chinese - Kent Chang <kentxchang@gmail.com>"
+msgstr ""
+
+#: ../remastersysgtk/remastersys_gtk.py:183
+msgid "Simplified Chinese - Mutse Young <yyhoo2.young@gmail.com>"
+msgstr ""
+
+#: ../remastersysgtk/remastersys_gtk.py:188
+msgid ""
+"PyGTK GUI for Remastersys\n"
+"Copyright (C) 2011 Krasimir S. Stefanov, Tony Brijeski\n"
+"Licence: GPLv3.0\n"
+"http://www.gnu.org/licenses/."
+msgstr ""
+"PyGTK GUI for Remastersys\n"
+"Copyright (C) 2011 Krasimir S. Stefanov, Tony Brijeski\n"
+"Licence: GPLv3.0\n"
+"http://www.gnu.org/licenses/."
+
+#: ../remastersysgtk/remastersys_gtk.py:197
+msgid "Select working directory"
+msgstr "Select working directory"
+
+#: ../remastersysgtk/remastersys_gtk.py:211
+msgid "Select 640x480 PNG image..."
+msgstr "Select 640x480 PNG image..."
+
+#: ../remastersysgtk/remastersys_gtk.py:217
+#: ../remastersysgtk/remastersys_gtk.py:406
+msgid "PNG Images"
+msgstr "PNG Images"
+
+#: ../remastersysgtk/remastersys_gtk.py:222
+#: ../remastersysgtk/remastersys_gtk.py:411
+msgid "All files"
+msgstr "All files"
+
+#: ../remastersysgtk/remastersys_gtk.py:233
+#, python-format
+msgid ""
+"%s has been copied to /etc/remastersys/isolinux/splash.png becoming the "
+"default background for the LIVE menu."
+msgstr ""
+"%s has been copied to /etc/remastersys/isolinux/splash.png becoming the "
+"default background for the LIVE menu."
+
+#: ../remastersysgtk/remastersys_gtk.py:238
+msgid "Select image..."
+msgstr "Select image..."
+
+#: ../remastersysgtk/remastersys_gtk.py:265
+#, python-format
+msgid ""
+"%(filename)s has been copied to %(grub_bg)s and is the default background "
+"for grub. Click OK to update grub with the new settings so you can see your "
+"picture on the next boot."
+msgstr ""
+"%(filename)s has been copied to %(grub_bg)s and is the default background "
+"for grub. Click OK to update grub with the new settings so you can see your "
+"picture on the next boot."
+
+#: ../remastersysgtk/remastersys_gtk.py:277
+msgid "GRUB has been updated."
+msgstr "GRUB has been updated."
+
+#: ../remastersysgtk/remastersys_gtk.py:319
+msgid "User"
+msgstr "User"
+
+#: ../remastersysgtk/remastersys_gtk.py:320
+msgid "Home directory"
+msgstr "Home directory"
+
+#: ../remastersysgtk/remastersys_gtk.py:370
+msgid "Done! Now plymouth will use the default, auto-selected theme."
+msgstr "Done! Now plymouth will use the default, auto-selected theme."
+
+#: ../remastersysgtk/remastersys_gtk.py:374
+#: ../remastersysgtk/remastersys_gtk.py:473
+msgid "Please, select a theme!"
+msgstr "Please, select a theme!"
+
+#: ../remastersysgtk/remastersys_gtk.py:383
+msgid ""
+"Enter your plymouth theme name. eg. Remastersys Theme (please use only "
+"alphanumeric characters)"
+msgstr ""
+"Enter your plymouth theme name. eg. Remastersys Theme (please use only "
+"alphanumeric characters)"
+
+#: ../remastersysgtk/remastersys_gtk.py:383
+msgid "Name:"
+msgstr "Name:"
+
+#: ../remastersysgtk/remastersys_gtk.py:387
+msgid "You must specify theme name!"
+msgstr "You must specify theme name!"
+
+#: ../remastersysgtk/remastersys_gtk.py:394
+#, python-format
+msgid "The theme \"%s\" already exists! Do you want to overwrite it?"
+msgstr "The theme \"%s\" already exists! Do you want to overwrite it?"
+
+#: ../remastersysgtk/remastersys_gtk.py:400
+msgid "Select 1920x1080 PNG image..."
+msgstr "Select 1920x1080 PNG image..."
+
+#: ../remastersysgtk/remastersys_gtk.py:446
+#, python-format
+msgid ""
+"Your plymouth theme named %(theme_name)s with the picture %(theme_pic)s has "
+"been created."
+msgstr ""
+"Your plymouth theme named %(theme_name)s with the picture %(theme_pic)s has "
+"been created."
+
+#: ../remastersysgtk/remastersys_gtk.py:454
+msgid ""
+"In order to be able to preview plymouth themes, you have to install plymouth-"
+"x11!"
+msgstr ""
+"In order to be able to preview plymouth themes, you have to install plymouth-"
+"x11!"
+
+#: ../remastersysgtk/remastersys_gtk.py:543
+msgid "Name"
+msgstr "Name"
+
+#: ../remastersysgtk/remastersys_gtk.py:544
+msgid "Directory"
+msgstr "Directory"
+
+#: ../remastersysgtk/remastersys_gtk.py:561
+msgid "Are you sure you want to delete the contents of /etc/skel?"
+msgstr "Are you sure you want to delete the contents of /etc/skel?"
+
+#: ../remastersysgtk/remastersys_gtk.py:752
+msgid "Enter your password to perform administrative tasks"
+msgstr "Enter your password to perform administrative tasks"
+
+#~ msgid "Remastersys-GTK"
+#~ msgstr "Remastersys-GTK"
