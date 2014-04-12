@@ -1,0 +1,16 @@
+Source: remastersys
+Section: extra
+Priority: optional
+Maintainer: mutse <yyhoo2.young@gmail.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.2
+Homepage: http://www.remastersys.com
+#Vcs-Git: git://git.debian.org/collab-maint/remastersys.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/remastersys.git;a=summary
+
+Package: remastersys
+Architecture: all
+Depends: ${misc:Depends}, memtest86+, coreutils, dialog, mkisofs | genisoimage, findutils, bash, passwd, sed, squashfs-tools, casper, rsync, mount, eject, libdebian-installer4, os-prober, ubiquity-frontend-debconf, user-setup, discover1 | discover, laptop-detect, syslinux, util-linux, xresprobe
+Suggests: remastersys-gtk
+Description: Backup Your Ubuntu system With Remastersys
+ Ubuntu and variant system remaster This script creates a livecd of the installed system. You can either make a distributable livecd or backup of your system. For more information, please visit http://www.remastersys.com/ubuntu.html.

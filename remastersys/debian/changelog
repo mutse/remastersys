@@ -1,0 +1,5 @@
+remastersys (3.0.4-2) unstable; urgency=low
+
+  * Initial release, first deb packaging
+
+ -- mutse <yyhoo2.young@gmail.com>  Mon, 25 Nov 2013 21:10:49 +0800

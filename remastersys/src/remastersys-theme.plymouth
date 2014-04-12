@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=__THEMENAME__
+Description=This theme is the __THEMENAME__ Plymouth Theme
+ModuleName=script
+
+[script]
+ImageDir=/lib/plymouth/themes/__THEMEDIR__
+ScriptFile=/lib/plymouth/themes/__THEMEDIR__/__THEMEDIR__.script

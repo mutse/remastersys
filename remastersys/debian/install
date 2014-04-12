@@ -1,0 +1,13 @@
+src/remastersys usr/bin
+src/remastersys-skelcopy usr/bin
+src/isolinux.cfg.vesamenu etc/remastersys/isolinux
+src/remastersys-theme.plymouth etc/remastersys/plymouth/remastersys-theme
+src/remastersys-theme.script etc/remastersys/plymouth/remastersys-theme
+src/custom.seed etc/remastersys/preseed
+src/remastersys.version etc/remastersys
+etc/remastersys.conf etc
+images/splash.png etc/remastersys/isolinux
+images/progress_bar.png etc/remastersys/plymouth/remastersys-theme
+images/progress_box.png etc/remastersys/plymouth/remastersys-theme
+images/remastersys.png etc/remastersys/plymouth/remastersys-theme
+man/man1/remastersys.1 usr/share/man/man1

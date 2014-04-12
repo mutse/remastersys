@@ -1,0 +1,194 @@
+remastersys (3.0.3-1) unstable; urgency=low
+
+      * 3.0.3-1
+      * fixed .disk/info for new usb-creator code that checks version of ubuntu and uses syslinux-legacy for version older than 10.10
+      * fixed leftover kdmsts issue in /var
+
+      * 3.0.2-1
+      * New version to support 10.04 to 12.04 version of Ubuntu
+      * Gui has been taken out of this so folks can use this without gui if they prefer
+      * Code cleanup - more details can be found in the script itself
+      * Fixes for remastersys-skelcopy
+      * Further refinement of remastersys with omissions to increase success rate for more desktop scenarios
+
+      * 3.0.1-1
+      * Added filter in remastersys-skelcopy to remove akonadi database entries and socket files
+      * Added filter in remastersys to prevent copying of kdecache* files
+      * Fixed remastersys-gtk.py to copy progress_bar.png and progress_box.png for the plymouth theme generation as it was missing
+      * Fixed issue with backup mode grub install
+      * added remastersys-firstboot to remove ubiquity frontend icon from users desktop on backup mode after install - users can also add their own commands to this and it
+      *    will only run once after first boot and then disable itself
+      * added removal of Trash from root for both modes and for users for backup mode
+      * changed method of checking for Desktop type for ubiquity-frontend by looking for startkde in the process list
+      * removed metacity and xterm as suggested dependencies
+      
+      * 3.0.0-1
+      * Added remastersys-gtk gui into the main remastersys package - changes and fixes as well
+      * Added plymouth theme generation
+      * Added grub background changing option
+      * Added live system menu background changing option
+      * Added option for Backup mode Install Icon
+      * Optimized stage 1 procedure
+      * Fixed vesamenu.32 call
+      * Removed ubiquity-frontend* from desktop manifest so it is removed after install and off original system so it doesn't have a bad menu item
+      * Added /etc/shadow and /etc/gshadow to fix the rescue boot mode issue with root access
+      * Added remastersys-skelcopy script
+      * Prevent unimportant failures from showing to the user
+      * Added more information to the remastersys.log
+      * Properly spaced the script out to make it easier to read for scripters
+      * Added check for working folder filesystem type as it has to be a valid linux filesystem
+
+      * 2.0.18-1
+      * Excluded some wicd and Network manager files in dist mode.
+      * Changed mksquashfs call to make the block size 1M reducing the final iso size
+      * Excluded printer information and cups printer information in dist mode
+      * Changed the preseed copy to copy all preseed files from the /etc/remastersys/preseed folder
+      * Excluded Ubiquity cache files for grub
+
+      * 2.0.17-1
+      * Added back missing Install option to live boot menu
+
+      * 2.0.16-1
+      * Added code to produce the filesystem.size file that the installer in Lucid requires
+      * Replaced text based isolinux boot with vesamenu.c32 which looks and acts like the grub-legacy mode did
+
+      * 2.0.15-1
+      * Changed version file to show proper version
+      * Changed usb creator portion to reflect LIVECDLABEL instead of uname which would make more sense as the install icon uses this info as well
+
+      * 2.0.14-1
+      * Added patch from Tim Farley to make usb creator work again in Karmic and added the LIVECDURL option to the gui
+
+      * 2.0.13-1
+      * Grub2 version supporting Karmic 9.10 and later versions
+      * removed everything having to do with grub legacy
+      * no grub boot option for the cd anymore due to grub2
+
+      * 2.0.12-1
+      * Added Remastersys Grub Restore Tool
+      * Removed Gutsy and earlier support - for Gutsy and earlier, use up to version 2.0.11-1
+      * Added fix for cups ssl keys
+
+      * added check to remove the recovery file as its really not needed anyway and will be cleaner for backup mode
+      * added check to provide higher compression on 8.04 and higher versions with the newer mksquashfs
+      * added metacity as a suggested package as it is needed for the ubiquity direct install mode and if the desktop environment isn't kde, install it
+      * removed the splash.pcx and splash.rle as the graphics weren't showing up properly on some systems so the isolinux mode is just text now
+      * added textonly boot mode for both grub and isolinux modes
+      * added experimental remastersys-installer which works only in cli mode using dialog
+      * added readme.grubsplash and readme.remastersys-installer in /usr/share/doc/remastersys
+      * added a clean for the ISOTMP/isolinux and ISOTMP/grub folders to make sure they are removed and recreated
+      * added .disk folder for the iso that is needed for the livecd and for using the usb creator
+
+      * 2.0-10
+      * changed the /var exclude from *log.* to *.log.* as it was omitting some files that weren't logs
+
+      * 2.0-9
+      * removed metacity as a dependency as it was causing problems with kde3 and kde4 distributions
+      * removed kernel deps and other non-essential deps to further streamline things
+
+      * 2.0-8
+      * added checking of the filesystem.squashfs size
+      * removed the apt-get install of the livecd packages as they are dependencies anyway
+      * changed the control file to either use discover1 or discover and mkisofs or genisoimage - discover is the new package name for 8.10 and higher
+      * changed iso build command to be whatever is found - mkisofs or genisomage
+      * changed some of the dialogs to be more explanatory in the event of failures
+      * added a /etc/remastersys/remastersys.version file for easier version changing in the dialogs
+
+      * 2.0-7 
+      * modified isolinux.cfg files to be the same as the grub version
+      * added custom.seed which prevents the installation of all the language packs
+      * improved /var exclusion method
+      * left gdm-cdd.conf on the live system regardless
+      * fixed issue with backup mode where direct install would fail due to the livecd username being different than the installed one
+      * fixed gui to install either zenity or kdialog depending on whether kdm or gdm are installed
+      * added existing values to Modify portion of gui
+      * added an awk statement to make sure LIVEUSER is all lowercase for both gui and main
+
+      * 2.0-6
+      * added back isolinux and kept grub so both options are there
+      * moved isolinux.cfg and ixolinux.txt to /etc/remastersys/isolinux so they can be customized
+      * moved menu.lst out of remastersys to /etc/remastersys/grub
+      * added splash.pcx and splash.rle to /etc/remastersys/isolinux
+      * cleaned up unused commented out code
+      * added option to remastersys.conf and remastersys-gui for isolinux or grub choice
+      * changed copy of /var to dummysys for better cleanup
+      * added /etc/remastersys/customisolinux folder where users can put their guified isolinux setups and they will be copied over for the livecd
+      * added some deps to the package to ensure even ubuntu server base will build a usable livecd
+      * removed copy of factory-gdm.conf over to gdm.conf - gdm.conf from the system is now left intact for the livecd
+      * added a blank gdm.conf-custom file to keep gdmsetup working properly
+      * added dist cdfs and dist iso modes to remastersys-gui - the gui can finally do everything remastersys is capable of - no need to run it CLI at all anymore
+      * added back preseed option.  If the user puts their preseed file in /etc/remastersys/preseed and renames it custom.seed it will automatically be copied over for the livecd
+      * added a fix for the popularity-contest hang bug
+
+      * 2.0-5
+      * added removal of /var/crash/* files so there aren't any crash reports
+      * added proper check for arch for the disk defines file
+      * added removal of the 70-persistent* files from the temp etc/udev/rules.d folder
+      * added support for 8.04 for direct install option on grub boot of the livecd
+      * fixed the issue where the Install icon stayed on the desktop for dist mode
+      * added check for where Linux Mint puts stage2_eltorito
+      * added version to remastersys gui info tab
+      * removed Desktop icons for remastersys
+
+      * 2.0-4 
+      * fixed issue with some system for creating livecd user
+      * added further cleanup of /var for the dist version livecd
+      * added a check for size - checking to make sure iso size is bigger than filesystem.squashfs since
+        if it isn't then they have tried to backup too much data and the iso couldn't be created
+
+      * 2.0-3
+      * fixed issue with user creation if running dist after backup
+      * changed boot method for livecd to graphical grub
+      * changed method for making the livecd to provide clean passwd,group,shadow,gshadow files by copying /etc over to dummysys and altering from there
+      * added another remastersys folder under the WORKDIR in case the user chose an existing folder
+      * removed apt-get clean and excluded the deb files so the users system stays intact
+      * changed how the backup mode looks for the first user - safe now
+      * removed sbm
+
+      * 2.0-2 
+      * fixed issue with authentication for backup mode
+      * remove the -info option from the mksquashfs call
+      * added more relevant info to the remastersys.log for troubleshooting
+
+      * 2.0-1 
+      * fixed the issue with the 2G limit
+      * fixed issue with livecd user creation
+      * changed how backup option works - now it bypasses the livecd user altogether and uses the normal installed system users
+      * added creation of an md5sum for the iso file
+      * fixed the issue with md5sums.txt on the livecd iso
+      * removed the need for an original livecd - the livecd is now completely made from scratch
+      * corrected the /var omissions
+      * added remastersys-gui which also alows changes to the /etc/remastersys.conf file
+
+      * 1.7   
+      * had to revert back to separate squashfs calls 2G limit still there
+      * added $WORKDIR/remastersys.log for mksquashfs and mkisofs output
+
+      * 1.6   
+      * combined dummy filesystem and main in one call to overcome 2G limit
+        with squashfs erroring on lseek
+
+      * 1.5   
+      * added more accurate testing for which login manager is used
+
+      * 1.4   
+      * added ubiquity-frontend-kde for kde distros
+
+      * 1.3   
+      * added /etc/remastersys.conf
+      * added cdfs and iso option
+      * added custom iso naming to commandline option
+      * added ability to change the livecd username in the config file
+      * added ability change the livecd label in the config file
+
+      * 1.2   
+      * moved base dir to /home/remastersys from /remastersys since not all 
+        users will have a large root partition
+
+      * 1.1   
+      * added more checking for temp folders
+
+      * 1.0   
+      * First release.
+
+ -- Tony Brijeski <tb6517@yahoo.com>  Fri, 06 Apr 2012 02:33:53 -0500
