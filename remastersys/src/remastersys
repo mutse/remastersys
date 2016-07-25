@@ -286,7 +286,7 @@ log_msg "$WORKDIR is on a $DIRTYPE filesystem"
 
     log_msg "Cleaning up files not needed for the live in $WORKDIR/dummysys"
     rm -f $WORKDIR/dummysys/etc/X11/xorg.conf*
-    rm -f $WORKDIR/dummysys/etc/{resolv.conf,hosts,hostname,timezone,mtab*,fstab}
+    rm -f $WORKDIR/dummysys/etc/{hosts,hostname,timezone,mtab*,fstab}
     rm -f $WORKDIR/dummysys/etc/udev/rules.d/70-persistent*
     rm -f $WORKDIR/dummysys/etc/cups/ssl/{server.crt,server.key}
     rm -f $WORKDIR/dummysys/etc/ssh/{ssh_host_rsa_key,ssh_host_rsa_key.pub}
