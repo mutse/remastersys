@@ -30,7 +30,7 @@ except:
 
 APP = "remastersys-gtk"
 DIR = "/usr/share/locale"
-APP_VERSION = "3.0.4-1"
+APP_VERSION = "3.0.5-2"
 
 locale.setlocale(locale.LC_ALL, '')
 gtk.glade.bindtextdomain(APP, DIR)
@@ -177,7 +177,7 @@ class appgui:
         about.set_program_name(_("Remastersys"))
         about.set_version(APP_VERSION)
         about.set_authors([_("Krasimir S. Stefanov <lokiisyourmaster@gmail.com>"),_("Tony Brijeski <tb6517@yahoo.com>")])
-        about.set_website("http://www.remastersys.com/")
+        about.set_website("https://github.com/mutse/remastersys")
         translators = [
             _("Bulgarian - Krasimir S. Stefanov <lokiisyourmaster@gmail.com>"),
             _("English - Krasimir S. Stefanov <lokiisyourmaster@gmail.com>"), _("Traditional Chinese - Kent Chang <kentxchang@gmail.com>"), _('Simplified Chinese - Mutse Young <yyhoo2.young@gmail.com>')
